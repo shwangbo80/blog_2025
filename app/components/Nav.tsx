@@ -65,13 +65,13 @@ export default function Nav() {
               <a href="/">
                 <img
                   alt="Soo Hwangbo"
-                  src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                  className="h-8 w-auto"
+                  src="/soo_hwangbo_logo.png"
+                  className="h-13 w-auto"
                 />
               </a>
             </div>
             <div className="hidden sm:ml-6 sm:block">
-              <div className="flex space-x-4">
+              <div className="space-x-4 pt-3">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
