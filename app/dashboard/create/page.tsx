@@ -66,7 +66,7 @@ export default function CreatePost() {
                             required
                             value={title}
                             onChange={(e) => setTitle(e.target.value)}
-                            className="border border-gray-500 p-2  bg-gray-900 w-full text-light focus:border-blue-500 focus:outline-none focus:ring-0"
+                            className="border border-gray-500 p-2  bg-gray-900 w-full text-light focus:border-blue-500 focus:outline-none focus:ring-0 text-xl"
                         />
                     </div>
                     <div className="mb-4">
@@ -75,7 +75,7 @@ export default function CreatePost() {
                             required
                             value={content}
                             onChange={(e) => setContent(e.target.value)}
-                            className="border border-gray-500 p-2 bg-gray-900 w-full h-50 text-light focus:border-blue-500 focus:outline-none focus:ring-0"
+                            className="border border-gray-500 p-2 bg-gray-900 w-full h-50 text-light focus:border-blue-500 focus:outline-none focus:ring-0 text-xl"
                         />
                     </div>
                     <div className="mb-4 w-[150px]">
