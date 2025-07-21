@@ -50,7 +50,7 @@ export default function Home() {
                             <a
                                 key={post.id}
                                 href={`/post/${post.slug}`}
-                                className="text-xl font-bold no-underline hover:underline py-2"
+                                className="text-xl font-bold no-underline hover:underline py-2 text-white"
                             >
                                 {post.title}
                             </a>
