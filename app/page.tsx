@@ -40,13 +40,13 @@ export default function Home() {
     return (
         <div className="grid w-full font-[family-name:var(--font-geist-sans)] mb-5 prose dark:prose-invert max-w-none">
             <Hero />
-            <main className="flex flex-col gap-[15px] row-start-2 sm:items-start p-10 bg-gray-900 w-full max-w-5xl mx-auto">
+            <main className="flex flex-col gap-[15px] row-start-2 sm:items-start p-3 bg-gray-900 w-full max-w-5xl mx-auto">
                 {posts.map((post) => (
                     <div key={post.id} className=" w-full p-5 bg-gray-800">
                         <div className="text-xs text-gray-400">
                             {new Date(post.created_at).toISOString().slice(0, 10)}
                         </div>
-                        <div className="">
+                        <div>
                             <a
                                 key={post.id}
                                 href={`/post/${post.slug}`}
