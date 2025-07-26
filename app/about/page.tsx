@@ -7,8 +7,8 @@ export default function AboutPage() {
                 <h2 className="text-2xl/9 font-bold tracking-tight text-light">
                     About Soo
                 </h2>
-                <p className="text-lg mt-5">
-                    Hello! I'm Soo, a passionate indie developer with a love for creating innovative solutions. Welcome to my blog, where I share my thoughts on technology, programming, and life.
+                <p className="text-lg font-light mt-5">
+                    I am a full stack web developer and I make cool websites and apps. 
                 </p>
             </div>
         </div >
